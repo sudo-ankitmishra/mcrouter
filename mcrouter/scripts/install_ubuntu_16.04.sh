@@ -11,7 +11,7 @@ set -ex
 sudo apt-get update
 
 # Note libzstd-dev is not available on stock Ubuntu 14.04 or 15.04.
-sudo apt-get install -y \
+apt-get install -y \
     autoconf \
     binutils-dev \
     bison \
